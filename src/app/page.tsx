@@ -29,7 +29,7 @@ export default function Home() {
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>
       {token ? (
-        <h2>✅ 출석 확인 완료!</h2>
+        <h2>✅ 출석 준비 완료</h2>
       ) : (
         <>
           <h2>출석 체크</h2>
