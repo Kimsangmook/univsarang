@@ -9,7 +9,7 @@ export default function CheckingPage() {
   const handleSubmit = async () => {
     const token = localStorage.getItem("token");
     if (!token) {
-      setMessage("⚠️ 인증이 필요합니다. 먼저 출석 체크를 해주세요.");
+      setMessage("⚠️ 인증이 필요합니다. 먼저 본인을 확인해주세요.");
       return;
     }
 
